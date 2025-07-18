@@ -26,6 +26,7 @@ classes = [
     {'nome': 'Kirito', 'anime': 'Sword Art Online'},
     {'nome': 'Kyoko Hori', 'anime': 'Horimiya'},
     {'nome': 'Levi Ackerman', 'anime': 'Attack on Titan'},
+    {'nome': 'Mariu Shina', 'anime': 'Otonari no Tenshi-sama'},  # CORRIGIDO
     {'nome': 'Miku Nakano', 'anime': 'The Quintuplets'},
     {'nome': 'Monkey D. Luffy', 'anime': 'One Piece'},
     {'nome': 'Nami', 'anime': 'One Piece'},
@@ -33,9 +34,9 @@ classes = [
     {'nome': 'Nino Nakano', 'anime': 'The Quintuplets'},
     {'nome': 'Noelle Silva', 'anime': 'Black Clover'},
     {'nome': 'Roronoa Zoro', 'anime': 'One Piece'},
-    {'nome': 'Mariu Shiina', 'anime': 'Otonari no Tensei'},
     {'nome': 'Yotsuba Nakano', 'anime': 'The Quintuplets'},
 ]
+
 # testandoadniada
 class PrevisaoViewSet(viewsets.ModelViewSet):
     queryset = Previsao.objects.all().order_by('-data_criacao')
