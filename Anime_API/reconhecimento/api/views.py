@@ -33,10 +33,10 @@ classes = [
     {'nome': 'Nino Nakano', 'anime': 'The Quintuplets'},
     {'nome': 'Noelle Silva', 'anime': 'Black Clover'},
     {'nome': 'Roronoa Zoro', 'anime': 'One Piece'},
-    {'nome': 'Yano Tsukasa', 'anime': 'The Quintuplets'},
+    {'nome': 'Mariu Shiina', 'anime': 'Otonari no Tensei'},
     {'nome': 'Yotsuba Nakano', 'anime': 'The Quintuplets'},
 ]
-
+# testandoadniada
 class PrevisaoViewSet(viewsets.ModelViewSet):
     queryset = Previsao.objects.all().order_by('-data_criacao')
     serializer_class = PrevisaoSerializer
